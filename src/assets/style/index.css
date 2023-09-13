@@ -9,8 +9,10 @@
 }
 body {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
+  color: #000;
+  line-height: 1.2;
 }
 img {
   max-width: 100%;
@@ -29,4 +31,10 @@ img {
 
 :hover::-webkit-scrollbar-thumb:hover {
   background-color: #ff6f58;
+}
+
+@media(max-width:400px){
+  .wFull{
+    width: 100% !important;
+  }
 }
